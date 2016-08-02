@@ -11,6 +11,8 @@ public class Ficha {
 	boolean favoritos = false;
 	int totalfichascambiar = 0;
 	
+	
+	//linea de prueba
 	public int getTotalfichascambiar() {
 		return totalfichascambiar;
 	}
