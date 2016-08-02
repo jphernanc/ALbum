@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_margin="8dp" 
+    android:background="@color/blanco"
+    >
+
+     <TextView
+	        android:id="@+id/numeroficha"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="right"
+	        android:layout_marginLeft="5dp"
+	        android:gravity="right"
+	        android:textSize="10dp"
+	        android:text="01" 
+	        
+	        />
+    
+     <ImageView
+        android:id="@+id/fotopersonaje"
+        android:layout_width="64dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="5dp"
+        android:contentDescription="@string/fotoalbum"
+        android:src="@drawable/ic_launcher" 
+        android:layout_below="@+id/numeroficha"/>
+
+	  <TextView
+	        android:id="@+id/textoprincipal"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="left"
+	        android:layout_marginRight="5dp"
+	        android:textSize="10dp"
+	        android:text="Imagen uno" 
+	        android:layout_below="@+id/fotopersonaje"/>
+    
+</RelativeLayout>

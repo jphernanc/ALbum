@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ALbum</string>
+    <string name="action_settings">Settings</string>
+    <string name="fotoalbum">foto del album</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="boton_izquierda">&lt;&lt;</string>
+    <string name="boton_derecha">&gt;&gt;</string>
+    <string name="Pagina">page#</string>
+    <string name="nook">cancel</string>
+    <string name="title_activity_ficha">FichaActivity</string>
+
+</resources>

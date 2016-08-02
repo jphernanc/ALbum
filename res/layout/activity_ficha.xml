@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".FichaActivity" >
+  
+    
+	 <TextView 
+	        android:id="@+id/tituloprincipalficha"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="10dp"
+	        android:gravity="center_horizontal"
+	        android:layout_alignParentTop="true"
+	        android:layout_alignParentLeft="true"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginTop="10dp"
+	        android:text="texto"
+	        android:textSize="28sp" />   
+ 
+        
+        <ImageView
+            android:id="@+id/fichapersonalizda"
+            android:layout_width="100dp"
+            android:layout_height="100dp"        
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"            
+            android:padding="10dp"
+            android:src="@drawable/ic_launcher" 
+            android:layout_marginTop="5dp"
+            android:contentDescription="image de la imagen"
+            android:layout_below="@+id/tituloprincipalficha"/>
+        
+        <LinearLayout 
+            android:id="@+id/datosvarios"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@+id/tituloprincipalficha"
+            android:layout_toRightOf="@+id/fichapersonalizda" >
+            
+            <TextView 
+                android:id="@+id/tituloficha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="texto1"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            
+            <TextView 
+                android:id="@+id/tituloficha2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="texto1"
+                android:textSize="12sp"              
+                />
+            
+            <TextView 
+                android:id="@+id/tituloficha3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="texto1"
+                android:textSize="12sp"            
+                />     
+                
+             <TextView 
+                android:id="@+id/favoritos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="texto1"
+                android:textSize="12sp"            
+                />    
+        </LinearLayout>
+
+       <TextView 
+            android:id="@+id/descficha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="esta es una larga descripcion de la ficha"
+            android:layout_below="@+id/datosvarios" 
+            android:layout_margin="5dp"
+            />
+
+        
+        <Button
+            android:id="@+id/addfavoritos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Agregar a favoritos"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"          /> 
+   
+
+</RelativeLayout>
